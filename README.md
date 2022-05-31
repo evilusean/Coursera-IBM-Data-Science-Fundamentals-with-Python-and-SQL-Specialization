@@ -1,4 +1,4 @@
-# CourseraIBMData Science Fundamentals with Python and SQL Specialization
+# Coursera IBM Data Science Fundamentals with Python and SQL Specialization
 
 https://www.coursera.org/specializations/data-science-fundamentals-python-sql
 
