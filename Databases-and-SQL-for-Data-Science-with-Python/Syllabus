@@ -1,0 +1,404 @@
+Week 1
+Getting Started With SQL
+18 min of videos left
+
+15 min of readings left
+
+1 graded assignment left
+
+In this module, you will be introduced to databases. You will create a database instance on the cloud. You will learn some of the basic SQL statements. You will also write and practice basic SQL hands-on on a live database.
+Learning Objectives
+Create an IBM Cloud Lite account.
+Demonstrate how to write basic SQL statements
+Describe SQL and Databases
+Create and execute CREATE TABLE, SELECT, INSERT, and DELETE SQL statements with a live database
+
+Welcome to SQL for Data Science
+
+Video•. Duration: 2 minutes2 min
+. Click to get started
+About Hands-on Labs in this course
+
+Reading•. Duration: 10 minutes10 min
+Introduction to Databases
+
+Video•. Duration: 4 minutes4 min
+SELECT Statement
+
+Video•. Duration: 3 minutes3 min
+SELECT statement examples
+
+Hands-on Lab: Simple SELECT Statements
+
+Ungraded External Tool•. Duration: 20 minutes20 min
+COUNT, DISTINCT, LIMIT
+
+Video•. Duration: 2 minutes2 min
+Hands-on Lab: COUNT, DISTINCT, LIMIT
+
+Ungraded External Tool•. Duration: 35 minutes35 min
+INSERT Statement
+
+Video•. Duration: 2 minutes2 min
+UPDATE and DELETE Statements
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab: INSERT, UPDATE, and DELETE
+
+Ungraded External Tool•. Duration: 20 minutes20 min
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Graded Quiz: Basic SQL
+
+Due, Jun 6, 3:59 AM ADT
+Quiz•3 questions
+
+Week 2
+Introduction to Relational Databases and Tables
+
+22 min of videos left
+
+5 min of readings left
+
+1 graded assignment left
+
+In this module, you will explore the fundamental concepts behind databases, tables, and the relationships between them. You will then create an instance of a database, discover SQL statements that allow you to create and manipulate tables, and then practice them on your own live database.
+
+Relational Database Concepts
+
+Video•. Duration: 5 minutes5 min
+How to create a Database instance on Cloud
+
+Video•. Duration: 5 minutes5 min
+Obtain an IBM Cloud Feature Code
+
+Ungraded External Tool•. Duration: 1 hour1h
+Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
+
+Types of SQL statements (DDL vs. DML)
+
+Video•. Duration: 2 minutes2 min
+CREATE TABLE Statement
+
+Video•. Duration: 4 minutes4 min
+ALTER, DROP, and Truncate tables
+
+Video•. Duration: 4 minutes4 min
+Examples to CREATE and DROP tables
+
+Hands-on Lab: CREATE, ALTER, TRUNCATE, DROP
+
+(Optional) Hands-on Lab : CREATE, ALTER, TRUNCATE, DROP
+
+Ungraded External Tool•. Duration: 1 hour1h
+Hands-on Lab: Create and Load Tables using SQL Scripts
+
+(Optional) Hands-on Lab: Create and Load Tables using SQL Scripts
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Graded Quiz: Relational DB Concepts and Tables
+
+Due, Jun 13, 3:59 AM ADT
+Quiz•3 questions
+
+Week 3
+Intermediate SQL
+
+31 min of videos left
+
+10 min of readings left
+
+2 graded assignments left
+
+In this module, you will learn how to use string patterns and ranges to search data and how to sort and group data in result sets. You will also practice composing nested queries and execute select statements to access data from multiple tables.
+
+Using String Patterns and Ranges
+
+Video•. Duration: 4 minutes4 min
+Sorting Result Sets
+
+Video•. Duration: 2 minutes2 min
+Grouping Result Sets
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab : String Patterns, Sorting & Grouping
+
+(Optional) Hands-on Lab: String Patterns, Sorting and Grouping
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Graded Quiz: Refining Your Results
+
+Due, Jun 20, 3:59 AM ADT
+Quiz•3 questions
+•Grade: --
+
+
+Built-in Database Functions
+
+Video•. Duration: 6 minutes6 min
+Date and Time Built-in Functions
+
+Video•. Duration: 2 minutes2 min
+Hands-on Lab: Built-in functions
+
+(Optional) Hands-on Lab: Built-in functions
+
+Ungraded External Tool•. Duration: 1 hour1h
+Sub-Queries and Nested Selects
+
+Video•. Duration: 4 minutes4 min
+Hands-on Lab: Sub-queries and Nested SELECTs 
+
+(Optional) Hands-on Lab : Sub-queries and Nested SELECTS
+
+Ungraded External Tool•. Duration: 1 hour1h
+Working with Multiple Tables
+
+Video•. Duration: 6 minutes6 min
+Hands-on Lab: Working with Multiple Tables  
+
+(Optional) Hands-on Lab: Working with Multiple Tables
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Graded Quiz: Functions, Sub-Queries, Multiple Tables
+
+Due, Jun 20, 3:59 AM ADT
+Quiz•3 questions
+
+Week 4
+Accessing Databases using Python
+
+27 min of videos left
+
+5 min of readings left
+
+1 graded assignment left
+
+In this module you will learn the basic concepts related to using Python to connect to databases. In a Jupyter Notebook, you will create tables, load data, query data using SQL, and analyze data using Python.
+
+How to Access Databases Using Python
+
+Video•. Duration: 6 minutes6 min
+Writing code using DB-API
+
+Video•. Duration: 5 minutes5 min
+Connecting to a database using ibm_db API
+
+Video•. Duration: 2 minutes2 min
+Lab: Create Database Credentials
+
+Hands-on Lab: Connecting to a database instance
+
+Ungraded External Tool•. Duration: 20 minutes20 min
+Creating tables, loading data and querying data
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab: Creating tables, inserting and querying Data
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+(Optional) Hands-on Lab: Creating tables, inserting and querying Data
+
+Ungraded External Tool•. Duration: 1 hour1h
+Introducing SQL Magic
+
+Hands-on Tutorial: Accessing Databases with SQL magic
+
+Ungraded External Tool•. Duration: 20 minutes20 min
+(Optional) Hands-on Tutorial: Accessing Databases with SQL magic
+
+Ungraded External Tool•. Duration: 1 hour1h
+Analyzing data with Python
+
+Video•. Duration: 9 minutes9 min
+Hands-on Lab: Analyzing a real World Data Set
+
+Ungraded External Tool•. Duration: 45 minutes45 min
+(Optional) Hands-on Lab: Analyzing a real World Data Set
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Graded Quiz: Database access from Python
+
+Due, Jun 27, 3:59 AM ADT
+Quiz•3 questions
+
+Week 5
+Course Assignment
+
+12 min of videos left
+
+2 min of readings left
+
+2 graded assignments left
+
+In this assignment, you will be working with multiple real world datasets for the city of Chicago. You will be asked questions that will help you understand the data just as you would in the real wold. You will be assessed on the correctness of your SQL queries and results.
+Working with Real World Datasets
+
+Video•. Duration: 8 minutes8 min
+Getting Table and Column Details
+
+Video•. Duration: 4 minutes4 min
+LOADing Data
+
+Hands-on Lab: Practice Querying Real World Datasets
+
+Ungraded External Tool•. Duration: 45 minutes45 min
+(Optional) Hands-on Lab:Working with a real world data-set
+
+Ungraded External Tool•. Duration: 1 hour1h
+
+Instructions for Peer-graded assignment
+
+Jupyter Notebook with Problems for Peer Reviewed Assignment
+
+Ungraded External Tool•. Duration: 1 hour1h
+(Optional) Hands-on Lab:Peer graded assignment
+
+Ungraded External Tool•. Duration: 1 hour1h
+Submit Your Work and Review Your Peers
+
+Due, Jul 4, 3:59 AM ADT
+Peer-graded Assignment•. Duration: 30 minutes30 min
+•Grade: --
+
+Submit Your Work and Review Your Peers
+
+Due, Jul 7, 3:59 AM ADT
+Review Your Peers
+•Grade: --
+
+
+Final Exam
+
+Due, Jul 4, 3:59 AM ADT
+Quiz•10 questions
+•Grade: --
+
+Congratulations & Next Steps
+
+Reading•. Duration: 2 minutes2 min
+
+Week 6
+Bonus Content: Advanced SQL for Data Engineering
+
+23 min of videos left
+
+12 min of readings left
+
+This module covers some advanced SQL techniques that will be useful for Data Engineers. If you are following the Data Engineering track, you must complete this module. Completion of this module is not required for those completing the Data Science...
+About this Honors module
+
+Reading•. Duration: 2 minutes2 min
+Views
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab: Using Views
+
+(Optional) Hands-on Lab: Using Views
+
+Ungraded External Tool•. Duration: 1 hour1h
+Stored Procedures
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab: Stored Procedures
+
+(Optional) Hands-on Lab: Stored Procedures
+
+Ungraded External Tool•. Duration: 1 hour1h
+ACID Transactions
+
+Video•. Duration: 3 minutes3 min
+Hands-on Lab: Committing and rolling back a transaction
+
+(Optional) Hands-on Lab: Committing and Rolling back a Transaction
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Join Overview
+
+Video•. Duration: 4 minutes4 min
+Inner Join
+
+Video•. Duration: 2 minutes2 min
+Outer Joins
+
+Video•. Duration: 5 minutes5 min
+Hands-on Lab: Joins
+
+(Optional) Hands-on Lab:Joins
+
+Ungraded External Tool•. Duration: 1 hour1h
+Summary & Highlights
+
+Reading•. Duration: 5 minutes5 min
+Practice Quiz
+
+Practice Quiz•5 questions
+Optional Honors Content
+
+Graded Quiz: Views, Stored Procedures and Transactions
+
+Due, Jul 11, 3:59 AM ADT
+Honors Quiz•5 questions
+•Grade: --
+
+Graded Quiz: JOIN operations
+
+Due, Jul 11, 3:59 AM ADT
+Honors Quiz•5 questions
+•Grade: --
+
+Practice Hands-on Lab: Joins
+
+Honors•. Duration: 30 minutes30 min
+(Optional) Practice Lab:Joins
+
+Ungraded External Tool•. Duration: 1 hour1h
+Final Project: Advanced SQL for Data Engineers
+
+Honors•. Duration: 1 hour1h
+(Optional) Hands-on Lab:Final Project: Advanced SQL Techniques
+
+Ungraded External Tool•. Duration: 1 hour1h
+Advanced SQL for Data Engineers
+
+Due, Jul 11, 3:59 AM ADT
+Honors Peer-graded Assignment•. Duration: 1 hour1h
+•Grade: --
+
+Advanced SQL for Data Engineers
+
+Due, Jul 14, 3:59 AM ADT
+Review Your Peers
