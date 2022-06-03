@@ -10,9 +10,9 @@ Lab 5: CREATE TABLE, DROP TABLE
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/Module%202/DB0201-l2%20_M2_CREATE_DROP.md.html?origin=www.coursera.org
 Lab 6: CREATE, ALTER, TRUNCATE, DROP using Db2
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/Labs_Coursera_V5/labs/Lab%20-%20CREATE%20-%20ALTER%20-%20TRUNCATE%20-%20DROP/instructional-labs.md.html?origin=www.coursera.org
-Lab 7:CREATE, ALTER, TRUNCATE, DROP into Tables in MySQL using phpMyAdmin
+Lab 6.1:CREATE, ALTER, TRUNCATE, DROP into Tables in MySQL using phpMyAdmin
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/MySQL/week2/Create_alter_truncate.md.html
-Lab 8: Hands-on Lab: Create Tables using SQL Scripts and Load Data into Tables
+Lab 7: Hands-on Lab: Create Tables using SQL Scripts and Load Data into Tables using Db2
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/Labs_Coursera_V5/labs/Lab%20-%20Create%20tables%20using%20SQL%20scripts%20and%20Load%20data%20into%20tables/instructional-labs.md.html?origin=www.coursera.org
-
-
+Lab 7.1: Hands-on Lab: Create Tables using SQL Scripts and Load Data into Tables in MySQL using phpMyAdmin
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/MySQL/week2/Create_and%20_Load.md.html
