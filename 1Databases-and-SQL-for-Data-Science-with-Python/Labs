@@ -29,3 +29,9 @@ https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperS
 Lab 8.1: Hands-on Lab: String Patterns, Sorting and Grouping in MySQL using phpMyAdmin, WHERE clauses
 LIKE %, AND, BETWEEN, OR, IN, ORDER BY, GROUP BY + HAVING
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/MySQL/week3/Sorting_grouping.md.html
+
+Lab 9:Built-in functions - Aggregate, Scalar, String, Date and Time Functions using Db2
+SUM(), MIN(), MAX(), AVG(), Timestamp functions
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/Labs_Coursera_V5/labs/Lab%20-%20Built-in%20functions%20/Hands-on_Lab__Built-in_Functions.md.html?origin=www.coursera.org
+Lab 9.1:
+
