@@ -11,4 +11,13 @@ Chicago Crime Data:
 https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2022-01-01
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/FinalModule_Coursera_V5/data/ChicagoCrimeData.csv?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2022-01-01
 
+downloaded the datasets using the links above instead of directly from the Chicago Data Portal. 
+The versions linked here are subsets of the original datasets and have some of the column names modified to be more database
+friendly which will make it easier to complete this assignment. The CSV file provided above for the Chicago Crime Data is a very small subset
+of the full dataset available from the Chicago Data Portal. The original dataset is over 1.55GB in size and contains over 6.5 million rows. 
+For the purposes of this assignment you will use a much smaller sample with only about 500
+
+
 June 10:Created New directory for assignment
+
+June 11:Downloaded Data subsets
