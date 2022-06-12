@@ -21,4 +21,6 @@ For the purposes of this assignment you will use a much smaller sample with only
 June 10:Created New directory for assignment
 
 June 11:Downloaded Data subsets
+Data Downloaded as CSV's
 Created Tables: CENSUS, CHICAGO_PUBLIC_SCHOOLS, CHICAGO_CRIME_DATA in IBM's Db2 cloud database
+Loaded CSV's into newly created tables
