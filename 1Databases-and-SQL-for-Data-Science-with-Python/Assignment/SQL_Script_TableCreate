@@ -1,0 +1,11 @@
+CREATE TABLE CENSUS_DATA (
+                          COMMUNITY_AREA_NUMBER INT,
+                          COMMUNITY_AREA_NAME VARCHAR(20) NOT NULL,
+                          PERCENT_OF_HOUSING_CROWDED DECIMAL(3,1) NOT NULL,
+                          PERCENT_HOUSEHOLDS_BELOW_POVERTY DECIMAL(3,1),
+                          PERCENT_AGED_16__UNEMPLOYED DECIMAL(3,1),
+                          PERCENT_AGED_25__WITHOUT_HIGH_SCHOOL_DIPLOMA DECIMAL(3,1),
+                          PERCENT_AGED_UNDER_18_OR_OVER_64 DECIMAL(3,1),
+                          PER_CAPITA_INCOME INT,
+                          HARDSHIP_INDEX INT
+                        );
