@@ -1,3 +1,5 @@
+Scenario/Initial Insctuctions:
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/FinalModule_Coursera_V5/Instructions_for_Peer_Graded_Assignment.md.html?origin=www.coursera.org
 Using a subset of the data given by coursera limited to ~500 rows, original dataset is over 1.55GB in size and contains over 6.5 million rows. 
 Data Downloaded as CSV's
 Created Tables: CENSUS, CHICAGO_PUBLIC_SCHOOLS, CHICAGO_CRIME_DATA in IBM's Db2 cloud database
