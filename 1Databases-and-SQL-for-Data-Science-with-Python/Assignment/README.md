@@ -1,4 +1,7 @@
 Using a subset of the data given by coursera limited to ~500 rows, original dataset is over 1.55GB in size and contains over 6.5 million rows. 
+Data Downloaded as CSV's
+Created Tables: CENSUS, CHICAGO_PUBLIC_SCHOOLS, CHICAGO_CRIME_DATA in IBM's Db2 cloud database
+Loaded CSV's into newly created tables on IBM's Db2 cloud platform, scripts can be found in directory above.
 Problem 1: Find the total number of crimes recorded in the CRIME table.
 
 Problem 2: List community areas with per capita income less than 11000.
