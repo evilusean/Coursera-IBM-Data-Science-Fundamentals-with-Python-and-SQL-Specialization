@@ -26,3 +26,4 @@ Created Tables: CENSUS, CHICAGO_PUBLIC_SCHOOLS, CHICAGO_CRIME_DATA in IBM's Db2 
 Loaded CSV's into newly created tables
 
 June 12: Began work on jupyter python notebook
+Finished Jupyter Notebook using Python and SQL, completed and put qeuries into readme.md.
