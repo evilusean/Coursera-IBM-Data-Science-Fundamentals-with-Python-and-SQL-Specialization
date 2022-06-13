@@ -1,0 +1,53 @@
+
+!pip install sqlalchemy
+!pip install ibm_db_sa
+!pip install sqlalchemy==1.3.9
+!pip install ibm_db_sa
+!pip install ipython-sql 
+
+import ibm_db
+import ibm_db_sa
+import sqlalchemy
+
+%reload_ext sql
+
+# Enter the connection string for your Db2 on Cloud database instance below
+# %sql ibm_db_sa://my-username:my-password@my-hostname:my-port/my-db-name?security=SSL
+#Deleted to protect my private database login information from being publicly available
+
+# Problem 1: Find the total number of crimes recorded in the CRIME table.
+%sql select count(*)  as TOTAL_NUMBER_OF_CRIME_CASES from CHICAGO_CRIME_DATA
+
+#Problem 2: List community areas with per capita income less than 11000.
+%sql select community_area_name from census_data where per_capita_income<11000
+
+#Problem 3: List all case numbers for crimes involving minors?
+%sql select case_number from chicago_crime_data where lcase(primary_type) = 'offense involving children' or lcase(description) like '%minor'
+
+# Problem4: List all kidnapping crimes involving a child?(children are not considered minors for the purposes of crime analysis)
+%sql select case_number from chicago_crime_data where primary_type='KIDNAPPING' 
+
+#Problem 5: What kind of crimes were recorded at schools?
+%sql select primary_type as crime_recorded_atschool from  CHICAGO_CRIME_DATA where location_description like '%SCHOOL%'
+
+#Problem 6: List the average safety score for all types of schools.
+%sql select avg(safety_score) as average_safety_score from CHICAGO_PUBLIC_SCHOOLS
+
+#Problem 7: List 5 community areas with highest % of households below poverty line.
+%sql select community_area_number, community_area_name from census_data\
+order by percent_households_below_poverty desc limit 5;
+
+#Problem 8: Which community area(number) is most crime prone?
+%sql select community_area_number,count(case_number) as no_of_cases from CHICAGO_CRIME_DATA\
+group by community_area_number order by no_of_cases desc limit 1
+
+#Problem 9: Use a sub-query to find the name of the community area with highest hardship index.
+%sql select community_area_name from census_data where hardship_index=(select max(hardship_index) from census_data)
+
+#Problem 10: Use a sub-query to determine the Community Area Name with most number of crimes?
+%sql select community_area_name from census_data where\
+community_area_number = (select community_area_number from (select * from (select community_area_number, count(community_area_number)\
+as crimes_in_community from chicago_crime_data group by community_area_number))where\
+crimes_in_community =(select max(crimes_in_community) from (select community_area_number, count(community_area_number) as\
+                                                            crimes_in_community from chicago_crime_data group by community_area_number)));
+    
