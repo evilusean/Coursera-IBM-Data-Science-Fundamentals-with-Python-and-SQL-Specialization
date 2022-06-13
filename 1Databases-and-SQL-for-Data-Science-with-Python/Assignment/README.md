@@ -147,7 +147,7 @@ community_area_number = (select community_area_number from (select * from (selec
 
 as crimes_in_community from chicago_crime_data group by community_area_number))where\
 
-crimes_in_community =(select max(crimes_in_community) from (select community_area_number, count(community_area_number) as\
+crimes_in_community =(select max(crimes_in_community) from (select community_area_number, count(community_area_number) as \
 
                                                             crimes_in_community from chicago_crime_data group by community_area_number)));
 
