@@ -69,5 +69,9 @@ https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperS
 Lab 16.1:ACID Transactions(all or none=Atomic, Consistent, Isolated, Durable) BEGIN, ROLLBACK, CALL, COMMIT using MySQL
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/MySQL/week6/commit_rollback.md.html
 
+Lab 17: INNER, LEFT OUTER, RIGHT OUTER, FULL JOIN using Db2
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/Labs_Coursera_V5/labs/Lab%20-%20Joins/instructional-labs.md.html?origin=www.coursera.org
+
+
 Assignment Link:
 https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork/labs/FinalModule_Coursera_V5/Instructions_for_Peer_Graded_Assignment.md.html?origin=www.coursera.org
