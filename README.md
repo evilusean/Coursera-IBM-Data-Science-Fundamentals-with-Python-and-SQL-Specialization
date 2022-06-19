@@ -12,4 +12,12 @@ https://www.coursera.org/learn/sql-data-science
 
 Start:May 31 2022
 
+End:16June2022
+
+## Python for Data Science, AI & Development
+
+https://www.coursera.org/learn/python-for-applied-data-science-ai/home/welcome
+
+Start:17June2022
+
 End:
