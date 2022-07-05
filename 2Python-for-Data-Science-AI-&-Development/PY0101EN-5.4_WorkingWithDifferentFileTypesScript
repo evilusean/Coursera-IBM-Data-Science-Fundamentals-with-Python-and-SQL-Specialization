@@ -1,0 +1,151 @@
+"""
+PY0101EN-5.4_WorkingWithDifferentFileTypesScript
+"""
+#dataframe manipulation using pandas
+import pandas as pd
+url ='https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%205/data/addresses.csv'
+df = pd.read_csv(url,header=None)
+df
+
+#We can add columns to an existing DataFrame using its columns attribute.
+df.columns =['First Name', 'Last Name', 'Location ', 'City','State','Area Code']
+
+#Selecting a single column
+df["First Name"]
+
+#Selecting multiple columns
+df = df[['First Name', 'Last Name', 'Location ', 'City','State','Area Code']]
+df
+
+#Selecting rows using .iloc and .loc
+# To select the first row
+df.loc[0]
+
+# To select the 0th,1st and 2nd row of "First Name" column only
+df.loc[[0,1,2], "First Name" ]
+
+# To select the 0th,1st and 2nd row of "First Name" column only
+df.iloc[[0,1,2], 0]
+
+
+
+##Transform function in pandas
+#import library
+import pandas as pd
+import numpy as np
+
+#creating a dataframe
+df=pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]), columns=['a', 'b', 'c'])
+df
+
+#applying the transform function
+df = df.transform(func = lambda x : x + 10)
+df
+
+#Now we will use DataFrame.transform() function to find the square root to each element of the dataframe.
+result = df.transform(func = ['sqrt'])
+
+##JSON
+import json
+
+#To handle the data flow in a file, the JSON library in Python uses the dump() or dumps() function to convert the Python objects into their respective JSON object. This makes it easy to write data to files.
+import json
+person = {
+    'first_name' : 'Mark',
+    'last_name' : 'abc',
+    'age' : 27,
+    'address': {
+        "streetAddress": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10021-3100"
+    }
+}
+
+#json.dump() method can be used for writing to JSON file.
+with open('person.json', 'w') as f:  # writing JSON object
+    json.dump(person, f)
+
+#using json.dumps()
+# Serializing json  
+json_object = json.dumps(person, indent = 4) 
+  
+# Writing to sample.json 
+with open("sample.json", "w") as outfile: 
+    outfile.write(json_object) 
+
+#Reading JSON to a File
+# Opening JSON file 
+with open('sample.json', 'r') as openfile: 
+  
+    # Reading from json file 
+    json_object = json.load(openfile) 
+  
+print(json_object) 
+print(type(json_object)) 
+
+##Reading XLSX
+import urllib.request
+
+urllib.request.urlretrieve("https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%205/data/file_example_XLSX_10.xlsx", "sample.xlsx")
+df = pd.read_excel("sample.xlsx")
+df
+
+##reading XML is also known as Extensible Markup Language.
+import xml.etree.ElementTree as ET
+
+# create the file structure
+employee = ET.Element('employee')
+details = ET.SubElement(employee, 'details')
+first = ET.SubElement(details, 'firstname')
+second = ET.SubElement(details, 'lastname')
+third = ET.SubElement(details, 'age')
+first.text = 'Shiv'
+second.text = 'Mishra'
+third.text = '23'
+
+# create a new XML file with the results
+mydata1 = ET.ElementTree(employee)
+# myfile = open("items2.xml", "wb")
+# myfile.write(mydata)
+with open("new_sample.xml", "wb") as files:
+    mydata1.write(files)
+
+#Reading with xml.etree.ElementTree
+import pandas as pd 
+
+import xml.etree.ElementTree as etree
+
+!wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%205/data/Sample-employee-XML-file.xml
+
+
+#Here is a sample code that you can use.:
+tree = etree.parse("Sample-employee-XML-file.xml")
+
+root = tree.getroot()
+columns = ["firstname", "lastname", "title", "division", "building","room"]
+
+datatframe = pd.DataFrame(columns = columns)
+
+for node in root: 
+
+    firstname = node.find("firstname").text
+
+    lastname = node.find("lastname").text 
+
+    title = node.find("title").text 
+    
+    division = node.find("division").text 
+    
+    building = node.find("building").text
+    
+    room = node.find("room").text
+    
+    datatframe = datatframe.append(pd.Series([firstname, lastname, title, division, building, room], index = columns), ignore_index = True)
+datatframe
+#reading XML using pandas
+# Herein xpath we mention the set of xml nodes to be considered for migrating  to the dataframe which in this case is details node under employees.
+df=pd.read_xml("Sample-employee-XML-file.xml", xpath="/employees/details") 
+
+#Save Data to CSV
+datatframe.to_csv("employee.csv", index=False)
