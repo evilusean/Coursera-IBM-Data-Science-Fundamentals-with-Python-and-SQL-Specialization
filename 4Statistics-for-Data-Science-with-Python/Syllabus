@@ -1,0 +1,273 @@
+Week 1
+5 min of videos left
+
+20 min of readings left
+
+Welcome!
+Welcome from your Instructors!
+
+Video•. Duration: 2 minutes2 min
+. Click to get started
+Course Overview
+
+Reading•. Duration: 10 minutes10 min
+Python Packages for Data Science
+
+Video•. Duration: 2 minutes2 min
+(Optional) Basics of Jupyter Notebooks
+
+Reading•. Duration: 10 minutes10 min
+(Optional) Python Review
+
+Ungraded External Tool•. Duration: 1 hour1h
+19 min of videos left
+
+1 graded assignment left
+
+This module will focus on introducing the basics of descriptive statistics - mean, median, mode, variance, and standard deviation. It will explain the usefulness of the measures of central tendency and dispersion for different levels of measurement.
+Welcome to Statistics!
+
+Video•. Duration: 4 minutes4 min
+Types of Data
+
+Video•. Duration: 5 minutes5 min
+Measure of Central Tendency
+
+
+Week 2
+
+18 min of videos left
+
+1 graded assignment left
+
+This module will focus on different types of visualization depending on the type of data and information we are trying to communicate. You will learn to calculate and interpret these measures and graphs.
+Visualization Fundamentals
+
+Video•. Duration: 3 minutes3 min
+Statistics by Groups
+
+Video•. Duration: 6 minutes6 min
+Statistical Charts
+
+Video•. Duration: 4 minutes4 min
+Introducing the teacher's rating data
+
+Video•. Duration: 4 minutes4 min
+
+Lab: Visualizing Data
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+Practice Quiz - Data Visualization
+
+Practice Quiz•2 questions
+Data Visualization
+
+Due, Jul 25, 3:59 AM ADT
+Quiz•5 questions
+•Grade: --
+
+
+Week 3
+21 min of videos left
+
+20 min of readings left
+
+1 graded assignment left
+
+This module will introduce the basic concepts and application of probability and probability distributions.
+Random Numbers and Probability Distributions
+
+Video•. Duration: 4 minutes4 min
+State your hypothesis
+
+Video•. Duration: 3 minutes3 min
+Alpha (α) and P-value
+
+Reading•. Duration: 10 minutes10 min
+Normal Distribution
+
+Video•. Duration: 3 minutes3 min
+T distribution
+
+Video•. Duration: 4 minutes4 min
+Probability of Getting a High or Low Teaching Evaluation
+
+Video•. Duration: 4 minutes4 min
+Standard Normal Table
+
+Reading•. Duration: 10 minutes10 min
+
+Lab: Introduction to Probability Distributions
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+Practice Quiz - Introduction to Probability Distribution
+
+Practice Quiz•3 questions
+Introduction to Probability Distribution
+
+Due, Aug 1, 3:59 AM ADT
+Quiz•10 questions
+
+
+Week 4
+22 min of videos left
+
+1 graded assignment left
+
+This module will focus on teaching the appropriate test to use when dealing with data and relationships between them. It will explain the assumptions of each test and the appropriate language when interpreting the results of a hypothesis test.
+z-test or t-test
+
+Video•. Duration: 4 minutes4 min
+Dealing with tails and rejections
+
+Video•. Duration: 4 minutes4 min
+Equal vs unequal variances
+
+Video•. Duration: 2 minutes2 min
+ANOVA
+
+Video•. Duration: 4 minutes4 min
+Correlation tests
+
+Video•. Duration: 7 minutes7 min
+
+Lab: Hypothesis Testing
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+Practice Quiz - Hypothesis Testing
+
+Practice Quiz•3 questions
+Hypothesis Testing
+
+Due, Aug 8, 3:59 AM ADT
+
+
+Video•. Duration: 5 minutes5 min
+Measure of Dispersion
+
+Video•. Duration: 4 minutes4 min
+
+Lab: Descriptive Statistics
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+Practice Quiz - Introduction to Descriptive Statistics
+
+Practice Quiz•3 questions
+Introduction and Descriptive Statistics
+
+Due, Jul 18, 3:59 AM ADT
+
+Week 5
+11 min of videos left
+
+1 graded assignment left
+
+This module will dive straight into using python to run regression analysis for testing relationships and differences in sample and population means rather than the classical hypothesis testing and how to interpret them.
+Regression - the workhorse of statistical analysis
+
+Video•. Duration: 4 minutes4 min
+Regression in place of t - test
+
+Video•. Duration: 2 minutes2 min
+Regression in place of ANOVA
+
+Video•. Duration: 3 minutes3 min
+Regression in place of Correlation
+
+Video•. Duration: 1 minute1 min
+
+Lab: Regression Analysis
+
+Ungraded External Tool•. Duration: 30 minutes30 min
+Practice Quiz - Regression analysis
+
+Practice Quiz•3 questions
+Regression Analysis
+
+Due, Aug 15, 3:59 AM ADT
+Quiz•8 questions
+•Grade: --
+
+
+Week 6
+1h 20m of readings left
+
+1 graded assignment left
+
+In the final week of the course, you will be given a dataset and a scenario where you will use descriptive statistics and hypothesis testing to give some insights about the data you were provided. You will use Watson studio for your analysis and...
+
+Project Case Scenario
+
+Reading•. Duration: 10 minutes10 min
+Overview of Project Tasks
+
+Reading•. Duration: 10 minutes10 min
+Task 1: Become familiar with the dataset
+
+Reading•. Duration: 10 minutes10 min
+Obtain an IBM Cloud Feature Code
+
+Ungraded External Tool•. Duration: 1 hour1h
+Task 2: Create or Login into IBM cloud to use Watson Studio.
+
+Reading•. Duration: 10 minutes10 min
+Task 3: Load in the Dataset in your Jupyter Notebook
+
+Reading•. Duration: 10 minutes10 min
+Task 4: Generate Descriptive Statistics and Visualizations
+
+Reading•. Duration: 10 minutes10 min
+Task 5: Use the appropriate tests to answer the questions provided.
+
+Reading•. Duration: 10 minutes10 min
+Task 6: Share your Jupyter Notebook.
+
+Reading•. Duration: 10 minutes10 min
+Create and Share your Jupyter Notebook
+
+Due, Aug 22, 3:59 AM ADT
+Peer-graded Assignment•. Duration: 1 hour1h
+•Grade: --
+
+Create and Share your Jupyter Notebook
+
+Due, Aug 25, 3:59 AM ADT
+Review Your Peers
+•Grade: --
+
+(Optional) Peer Graded Assignment
+
+Ungraded External Tool•. Duration: 1 hour1h
+10 min of readings left
+
+Cheat sheet for Statistics in Python
+Cheat sheet for Statistical Analysis in Python
+
+IBM Digital Badge
+
+Reading•. Duration: 10 minutes10 min
+Opt-in to receive your badge!
+
+Practice Quiz•1 question
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
