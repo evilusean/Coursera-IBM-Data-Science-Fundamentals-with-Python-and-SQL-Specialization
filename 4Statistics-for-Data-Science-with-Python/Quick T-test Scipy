@@ -1,0 +1,4 @@
+import scipy.stats 
+scipy.stats.ttest_ind(ratings_df[ratings_df['gender'] == 'female']['eval'],
+                      ratings_df[ratings_df['gender'] == 'male']['eval'])
+
