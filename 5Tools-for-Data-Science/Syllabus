@@ -1,0 +1,110 @@
+Syllabus
+WEEK 1
+Data Scientist's Toolkit
+In this module, you will get an overview of the programming languages commonly used, including Python, R, Scala, and SQL. You’ll be introduced to the open source and commercial data science tools available. You’ll also learn about the packages, APIs, data sets and models frequently used by Data Scientists.
+
+17 videos, 3 practice quizzes
+Video: Course Introduction
+Video: Languages of Data Science
+Video: Introduction to Python
+Video: Introduction to R Language
+Video: Introduction to SQL
+Video: Other Languages
+Practice Quiz: Practice Quiz - Languages
+Video: Categories of Data Science Tools
+Video: Open Source Tools for Data Science - Part 1
+Video: Open Source Tools for Data Science - Part 2
+Video: Commercial Tools for Data Science
+Video: Cloud Based Tools for Data Science
+Practice Quiz: Practice Quiz - Tools
+Video: Libraries for Data Science
+Video: Application Programming Interfaces (API)
+Video: Data Sets - Powering Data Science
+Video: Sharing Enterprise Data - Data Asset eXchange
+Video: Machine Learning Models
+Video: The Model Asset Exchange
+Ungraded Plugin: Reading: Explore Data Sets and Models
+Practice Quiz: Practice Quiz - Packages, APIs, Data Sets, Models
+
+Show lessweek 1 material
+Graded: Graded Quiz
+WEEK 2
+Open Source Tools
+In this module, you will learn about three popular tools used in data science: GitHub, Jupyter Notebooks, and RStudio IDE. You will become familiar with the features of each tool, and what makes these tools so popular among data scientists today.
+12 videos, 3 practice quizzes
+Video: Introduction to Jupyter Notebook
+Video: Getting Started with Jupyter
+Video: Jupyter Kernels
+Video: Jupyter Architecture
+Ungraded Plugin: Hands-on Lab: Jupyter Notebook - The Basics
+LTI Item: Lab - Jupyter Notebook - The Basics
+Ungraded Plugin: Lab - Jupyter Notebook - More Features
+LTI Item: Lab - Jupyter Notebook - More Features
+Ungraded Plugin: Hands-on Lab: Jupyter Notebook - Advanced Features
+LTI Item: Lab - Jupyter Notebook - Advanced Features
+Ungraded Plugin: Jupyter Notebooks on the Internet
+Practice Quiz: Practice Quiz - Jupyter Notebook
+Video: Introduction to R and RStudio
+Video: Plotting within RStudio
+LTI Item: Getting started with RStudio and Installing packages
+Ungraded Plugin: Getting started with RStudio and Installing packages
+LTI Item: Plotting within RStudio
+Ungraded Plugin: Plotting within RStudio
+LTI Item: Plotting within RStudio (Advanced)
+Practice Quiz: Practice Quiz - RStudio IDE
+Video: Overview of Git/GitHub
+Video: GitHub - Getting Started
+Ungraded Plugin: Lab 1: GitHub Lab - Getting Started
+Video: GitHub - Working with Branches
+Ungraded Plugin: Lab: Branching, Merging and Pull Requests on GitHub (Optional)
+Video: Git and GitHub via command line (Optional)
+Ungraded Plugin: Pre-requisites for command line interface (Optional)
+Ungraded Plugin: Configuring SSH access to repository (Optional)
+Ungraded Plugin: Git and GitHub via command line instructions (Optional)
+Video: Branching and merging via command line (Optional)
+Ungraded Plugin: Lab 2: Branching and merging via command line (Optional)
+Video: Contributing to repositories via pull request (Optional)
+Ungraded Plugin: Lab 3: Contributing to repositories via pull request (Optional)
+Practice Quiz: Practice Quiz - GitHub
+
+Show lessweek 2 material
+Graded: Graded Quiz
+WEEK 3
+IBM Tools for Data Science 
+In this module, you will learn about an enterprise-ready data science platform by IBM, called Watson Studio. You'll learn about some of the features and capabilities of what data scientists use in the industry. You’ll also learn about other IBM tools used to support data science projects, such as IBM Watson Knowledge Catalog, Data Refinery, and the SPSS Modeler.
+
+15 videos, 2 practice quizzes
+Video: What is IBM Watson Studio?
+Video: Watson Studio Introduction
+Video: Creating an Account on IBM Watson Studio
+Video: Jupyter Notebook in Watson Studio - Part 1
+Video: Jupyter Notebook in Watson Studio - Part 2
+LTI Item: Obtain an IBM Cloud Feature Code
+Ungraded Plugin: Hands-on Lab: Creating a Watson Studio Project with Jupyter Notebook
+Video: Linking GitHub to Watson Studio
+Practice Quiz: Practice Quiz - Watson Studio
+Video: Other IBM Tools for Data Science
+Video: IBM Watson Knowledge Catalog
+Video: Data Refinery
+Video: SPSS Modeler Flows in Watson Studio
+Ungraded Plugin: Lab: Modeler Flows in Watson Studio
+Video: IBM SPSS Modeler
+Video: SPSS Statistics
+Video: Model Deployment with Watson Machine Learning
+Video: Auto AI in Watson Studio
+Video: IBM Watson OpenScale
+Practice Quiz: Practice Quiz - Other IBM Tools
+
+Show lessweek 3 material
+Graded: Graded Quiz
+WEEK 4
+Final Assignment: Create and Share Your Jupyter Notebook
+In this module, you will demonstrate your skills by creating and configuring a Jupyter Notebook. As part of your grade for this course, you will share your Jupyter Notebook with your peers for review.
+1 reading
+Ungraded Plugin: Instructions: Create and Share Your Jupyter Notebook
+LTI Item: Peer Graded Assignment
+Reading: IBM Digital Badge
+
+Show lessweek 4 material
+Graded: Submit Your Work and Grade Your Peers
+Graded: Final Exam
