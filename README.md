@@ -2,9 +2,9 @@
 
 https://www.coursera.org/specializations/data-science-fundamentals-python-sql
 
-Start: May 31 2022
+Start: 31May2022
 
-End:
+End: 27July2022
 
 ## 01Databases and SQL for Data Science with Python
 
@@ -54,4 +54,4 @@ https://www.coursera.org/learn/open-source-tools-for-data-science?specialization
 
 Start:25July2022
 
-End:
+End:27July2022
