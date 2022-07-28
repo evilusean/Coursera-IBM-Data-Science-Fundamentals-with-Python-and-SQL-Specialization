@@ -2,6 +2,8 @@
 
 https://www.coursera.org/specializations/data-science-fundamentals-python-sql
 
+https://www.credly.com/earner/earned/badge/fb920878-c873-4d26-a96d-deb1d4fee496
+
 Start: 31May2022
 
 End: 27July2022
